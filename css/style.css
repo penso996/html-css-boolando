@@ -152,3 +152,49 @@ main h1 {
 
 
 /*footer*/
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-section {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+/*footer left*/
+.footer-left {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff6900;
+}
+
+.footer-left a {
+    font-size: small;
+    text-decoration: none;
+    color: white;
+}
+
+/*footer right*/
+.footer-right {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #ff6900;
+}
+
+.footer-right a {
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
