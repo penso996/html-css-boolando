@@ -91,17 +91,23 @@ main {
     width: 100%;
 }
 
-.label-sostenibility {
+.label-sustenaibility {
+    font-size: 15px;
     padding: 5px;
     background-color: green;
     color: white;
     position: absolute;
     bottom: 100px;
-    left: 0px;
+    left: 50px;
 }
 
+.label-sustenaibility2 {
+    left: 0px;
+
+}
 
 .label-discount {
+    font-size: 15px;
     padding: 5px;
     background-color: red;
     color: white;
