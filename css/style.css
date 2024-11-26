@@ -84,8 +84,38 @@ main {
 .product {
     width: 30%;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .product img {
     width: 100%;
+}
+
+.label-sostenibility {
+    padding: 5px;
+    background-color: green;
+    color: white;
+    position: absolute;
+    bottom: 60px;
+    left: 0px;
+}
+
+
+.label-discount {
+    padding: 5px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    bottom: 60px;
+    left: 0px;
+}
+
+main h2 {
+    font-size: small;
+    font-weight: lighter;
+}
+
+main h1 {
+    font-size: medium;
+    font-weight: bolder;
 }
