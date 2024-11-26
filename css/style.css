@@ -91,6 +91,18 @@ main {
     width: 100%;
 }
 
+.hover {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+}
+
+.product:hover .hover {
+    display: block;
+}
+
 .label-sustenaibility {
     font-size: 15px;
     padding: 5px;
