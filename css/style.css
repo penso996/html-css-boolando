@@ -91,15 +91,15 @@ main {
     width: 100%;
 }
 
-.hover {
+.show {
     position: absolute;
     display: none;
     top: 0;
     left: 0;
-    max-width: 100%;
+    width: 100%;
 }
 
-.product:hover .hover {
+.product:hover .show {
     display: block;
 }
 
@@ -115,7 +115,6 @@ main {
 
 .label-sustenaibility2 {
     left: 0px;
-
 }
 
 .label-discount {
@@ -150,3 +149,6 @@ main h1 {
     text-decoration: line-through;
     padding-left: 5px;
 }
+
+
+/*footer*/
