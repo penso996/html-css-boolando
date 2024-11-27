@@ -173,23 +173,32 @@ footer {
 /*footer left*/
 .footer-left {
     width: 30%;
-    display: flex;
-    justify-content: space-between;
-    background-color: #ff6900;
+}
+
+.footer-left p {
+    font-size: large;
+    color: white;
+    font-weight: bold;
 }
 
 .footer-left a {
     font-size: small;
     text-decoration: none;
     color: white;
+    padding-right: 10px;
 }
 
 /*footer right*/
 .footer-right {
     width: 30%;
-    display: flex;
-    justify-content: flex-end;
-    background-color: #ff6900;
+    text-align: right;
+}
+
+.footer-right p {
+    font-size: small;
+    color: white;
+    font-weight: bold;
+    padding-right: 15px;
 }
 
 .footer-right a {
