@@ -136,6 +136,10 @@ main {
     background-color: white;
 }
 
+.label-favourite:hover {
+    color: red;
+}
+
 main h2 {
     font-size: small;
     font-weight: lighter;
